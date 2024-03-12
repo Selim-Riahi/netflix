@@ -22,16 +22,17 @@ function App() {
     <GlobalContext>
       <div className="app">
         <Router>
-          <Navbar />
+          {/* <Navbar /> */}
           <Pages>
-            <Page exact path="/" element={<Home />}></Page>
+            <Page exact path="/home" element={<Home />} />
+            <Page exact index path="/" element={<Login />} />
             <Page path="/login" element={<Login />}></Page>
-            <Page path="/details/:id" element={<Details />}></Page>
-            <Page path="/trending" element={<Trending />}></Page>
-            <Page path="/favorites" element={<Favorites />}></Page>
-            <Page pahitth="/series" element={<TvSeries />}></Page>
-            <Page path="/genre/" element={<Films />}></Page>
-            <Page path="*" element={<Error />}></Page>
+            <Page path="/details/:id" element={<Details />} />
+            <Page path="/trending" element={<Trending />} />
+            <Page path="/favorites" element={<Favorites />} />
+            <Page pahitth="/series" element={<TvSeries />} />
+            <Page path="/genre/" element={<Films />} />
+            <Page path="*" element={<Error />} />
           </Pages>
         </Router>
       </div>

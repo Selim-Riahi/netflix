@@ -1,7 +1,7 @@
 export const navLinks = [
   {
     title: 'HOME',
-    path: '/',
+    path: '/home',
   },
   {
     title: 'SERIES',
@@ -20,6 +20,8 @@ export const navLinks = [
     path: '/favorites',
   },
 ]
+export const HD_BACKGROUND = 'https://image.tmdb.org/t/p/original'
+
 export const BASE_URL = 'https://www.themoviedb.org/t/p'
 export const BASE_IMG_URL = 'https://image.tmdb.org/t/p/w500'
 export const LOGO =
