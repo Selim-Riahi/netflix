@@ -35,6 +35,14 @@ export const TRENDING_URL =
   'https://api.themoviedb.org/3/movie/popular?api_key=0bffcf53738f28f3ac4fcaad5ea79478&language=en-US&page=1'
 export const GENRE_URL =
   'https://api.themoviedb.org/3/movie/top_rated?api_key=0bffcf53738f28f3ac4fcaad5ea79478&language=en-US&page=1'
-
+export const UPCOMING_MOVIES_URL = `https://api.themoviedb.org/3/movie/upcoming?api_key=${API_KEY}&language=en-US&page=1`
 export const TOP_RATED = `https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}&language=en-US&page=10`
 export const DISCOVER = `https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}&language=en-US&page=6 `
+export const HORROR_MOVIES_URL = `https://api.themoviedb.org/3/discover/movie?api_key=0bffcf53738f28f3ac4fcaad5ea79478&with_genres=27`
+export const KIDS_URL = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=16;
+`
+export const ROMANCE_URL = `https://api.themoviedb.org/3/discover/movie?api_key=0bffcf53738f28f3ac4fcaad5ea79478&with_genres=10749;
+`
+export const ACTIONS_URL = `https://api.themoviedb.org/3/discover/movie?api_key=0bffcf53738f28f3ac4fcaad5ea79478&with_genres=28'
+
+`

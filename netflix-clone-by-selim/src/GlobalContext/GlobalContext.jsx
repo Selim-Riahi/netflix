@@ -10,6 +10,11 @@ export function GlobalContext({ children }) {
   const [trending, setTrending] = useState([])
   const [topRated, setTopRated] = useState([])
   const [discover, setDiscover] = useState([])
+  const [upcoming, setUpcoming] = useState([])
+  const [romance, setRomance] = useState([])
+  const [action, setAction] = useState([])
+  const [kids, setKids] = useState([])
+  const [horror, setHorror] = useState([])
   const [movieSearchKeyword, setMovieSearchKeyword] = useState('')
   const [searchedMovieId, setSearchedMovieId] = useState(null)
   const [user, setUser] = useState(null)
@@ -29,6 +34,16 @@ export function GlobalContext({ children }) {
         setMovieSearchKeyword,
         searchedMovieId,
         setSearchedMovieId,
+        upcoming,
+        setUpcoming,
+        horror,
+        setHorror,
+        setKids,
+        kids,
+        romance,
+        setRomance,
+        action,
+        setAction,
       }}
     >
       {children}
